@@ -1,0 +1,111 @@
+#about {
+    background: #fff;
+    padding: 60px 0;
+}
+
+#about-us-header{
+    font-size: 36px;
+    color: #283d50;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+    font-family: montserrat,sans-serif;
+}
+
+#about .about-container .content {
+    background: #fff;
+}
+
+#about .about-container p {
+    line-height: 26px;
+    padding: 0;
+    margin: 0 0 30px;
+}
+
+#about .about-container .icon-box {
+    background: #fff;
+    background-size: cover;
+    padding: 0 0 30px;
+}
+
+#about .about-container .icon-box .icon {
+    float: left;
+    background: #fff;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 50%;
+    border: 2px solid #007bff;
+    transition: all .3s ease-in-out;
+}
+
+#about .about-container .icon-box .icon i {
+    color: #007bff;
+    font-size: 24px;
+}
+
+
+#about .about-container .icon-box .title {
+    margin-left: 80px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+#about .about-container .title {
+    color: #333;
+}
+
+.about-h4{
+    font-family: montserrat,sans-serif;
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+#about .about-container .icon-box .title a {
+    color: #283d50;
+    transition: .5s;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#about .about-container .icon-box .description {
+    margin-left: 80px;
+    line-height: 24px;
+    font-size: 14px;
+    
+}
+
+#about .about-container p:last-child {
+    margin-bottom: 0;
+}
+
+#about .about-container .background {
+    margin: 20px 0;
+}
+
+#about .about-extra {
+    padding-top: 60px;
+}
+
+#about .about-extra h4 {
+    font-weight: 600;
+    font-size: 24px;
+    font-family: montserrat,sans-serif;
+    margin: 0 0 20px;
+    padding: 0;
+}
+
+.about-p{
+    padding: 0;
+    margin: 0 0 30px;
+}
