@@ -20,17 +20,22 @@
     <!-- About Us CSS -->
     <link rel="stylesheet" href="{% static "about-us/about-us.css" %}">
     <link href="{% static "about-us/animate.min.css" %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static "seema/app.css" %}">
+
+
     <!-- <link href="{% static "about-us/font-awesome.min.css" %}" rel="stylesheet"> -->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 </head>
 <body>
-    <h2> Index Page bro</h2>
+    {% include 'frontend/navbar.html' %}
+    {% include 'frontend/header.html' %}
+    <!-- <header>
+            <h2> Index Page bro</h2>
+    </header> -->
     <!-- Include each section -->
     {% include 'frontend/about-us.html' %}
-
-
-
+    {% include 'frontend/services.html' %}
 
 
     <!-- Bootstrap JS -->
