@@ -424,7 +424,6 @@
     bottom: 0px;
     box-sizing: border-box;
     color: rgb(33, 37, 41);
-    content: '""';
     display: block;
     height: 1610px;
     left: 555px;
@@ -475,7 +474,6 @@
     box-sizing: border-box;
     clear: both;
     color: rgb(33, 37, 41);
-    content: '"' '"';
     display: table;
     height: 0px;
     text-decoration: none solid rgb(33, 37, 41);
@@ -494,7 +492,6 @@
 #beginLI_10:before, #beginLI_19:before, #beginLI_28:before, #beginLI_37:before {
     box-sizing: border-box;
     color: rgb(33, 37, 41);
-    content: '"' '"';
     display: table;
     height: 0px;
     text-decoration: none solid rgb(33, 37, 41);
@@ -1217,7 +1214,6 @@
     box-sizing: border-box;
     clear: both;
     color: rgb(33, 37, 41);
-    content: '"' '"';
     display: table;
     height: 0px;
     text-decoration: none solid rgb(33, 37, 41);
@@ -1236,7 +1232,6 @@
 #beginLI_46:before {
     box-sizing: border-box;
     color: rgb(33, 37, 41);
-    content: '"' '"';
     display: table;
     height: 0px;
     text-decoration: none solid rgb(33, 37, 41);
