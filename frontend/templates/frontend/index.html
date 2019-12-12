@@ -18,13 +18,57 @@
 
 
     <!-- About Us CSS -->
+
     <link rel="stylesheet" href="{% static 'about-us/about-us.css' %}">
     <link href="{% static 'about-us/animate.min.css' %}" rel="stylesheet">
+
+    <link rel="stylesheet" href="{% static "about-us/about-us.css" %}">
+    <link href="{% static "about-us/animate.min.css" %}" rel="stylesheet">
+    <link rel="stylesheet" href="{% static "seema/app.css" %}">
+
+
+
     <!-- <link href="{% static "about-us/font-awesome.min.css" %}" rel="stylesheet"> -->
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
 
+
    
+
+    <!-- Beginnings CSSS -->
+    <link rel="stylesheet" href="{% static "beginnings/beginnings.css" %}">
+
+     <!-- Our People CSS -->
+     <link rel="stylesheet" href="{% static "our-people/our-people.css" %}">
+
+
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- Contact-Us  CSS -->   
     <link rel="stylesheet" href="{% static 'contact-form/assets/build/css/pages/company/contact.min9bbf.css' %}" class="additional-css">       
     <link rel="stylesheet" href="{% static 'contact-form/assets/css/main.min9bbf.css' %}" id="main-css"> 
@@ -40,13 +84,25 @@
     <!-- Footer CSS -->   
     <link href="{% static 'footer/css/master-b72a938e7a.css' %}" rel="stylesheet">
     <!-- Footer CSS -->   
-</head>
+
+
+
+
 <body>
-    <h2> Index Page bro</h2>
+    {% include 'frontend/navbar.html' %}
+    {% include 'frontend/header.html' %}
+    <!-- <header>
+            <h2> Index Page bro</h2>
+    </header> -->
     <!-- Include each section -->
     {% include 'frontend/about-us.html' %}
 
-    
+    {% include 'frontend/services.html' %}
+
+    {% include 'frontend/beginnings.html' %}
+
+    {% include 'frontend/our-people.html' %}
+
 
     {% include 'frontend/clients.html' %}
 
