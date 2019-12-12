@@ -1169,3 +1169,1017 @@
     outline: rgb(255, 255, 255) none 0px;
 }/*#A_6:before*/
 
+@font-face {
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Black.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Black.woff) format("woff");
+    font-weight:700;
+    font-style:normal;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Bold.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Bold.woff) format("woff");
+    font-weight:600;
+    font-style:normal;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Light.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Light.woff) format("woff");
+    font-weight:300;
+    font-style:normal;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Regular.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Regular.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Semibold.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Semibold.woff) format("woff");
+    font-weight:500;
+    font-style:normal;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Thin.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Thin.woff) format("woff");
+    font-weight:100;
+    font-style:normal;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Ultra.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Ultra.woff) format("woff");
+    font-weight:800;
+    font-style:normal;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Black_Italic.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Black_Italic.woff) format("woff");
+    font-weight:700;
+    font-style:italic;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Bold_Italic.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Bold_Italic.woff) format("woff");
+    font-weight:600;
+    font-style:italic;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Italic.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Italic.woff) format("woff");
+    font-weight:400;
+    font-style:italic;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Light_Italic.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Light_Italic.woff) format("woff");
+    font-weight:300;
+    font-style:italic;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Semibold_Italic.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Semibold_Italic.woff) format("woff");
+    font-weight:500;
+    font-style:italic;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Thin_Italic.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Thin_Italic.woff) format("woff");
+    font-weight:100;
+    font-style:italic;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Ultra_Italic.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Ultra_Italic.woff) format("woff");
+    font-weight:800;
+    font-style:italic;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Black.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Black.woff) format("woff");
+    font-weight:700;
+    font-style:normal;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Black_Italic.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Black_Italic.woff) format("woff");
+    font-weight:700;
+    font-style:italic;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Bold.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Bold.woff) format("woff");
+    font-weight:600;
+    font-style:normal;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Bold_Italic.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Bold_Italic.woff) format("woff");
+    font-weight:600;
+    font-style:italic;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Italic.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Italic.woff) format("woff");
+    font-weight:400;
+    font-style:italic;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Light.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Light.woff) format("woff");
+    font-weight:300;
+    font-style:normal;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Light_Italic.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Light_Italic.woff) format("woff");
+    font-weight:300;
+    font-style:italic;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Regular.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Regular.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Semibold.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Semibold.woff) format("woff");
+    font-weight:500;
+    font-style:normal;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Semibold_Italic.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Semibold_Italic.woff) format("woff");
+    font-weight:500;
+    font-style:italic;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Thin.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Thin.woff) format("woff");
+    font-weight:100;
+    font-style:normal;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Thin_Italic.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Thin_Italic.woff) format("woff");
+    font-weight:100;
+    font-style:italic;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Black.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Black.woff) format("woff");
+    font-weight:700;
+    font-style:normal;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Bold.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Bold.woff) format("woff");
+    font-weight:600;
+    font-style:normal;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Light.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Light.woff) format("woff");
+    font-weight:300;
+    font-style:normal;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Regular.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Regular.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Semibold.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Semibold.woff) format("woff");
+    font-weight:500;
+    font-style:normal;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Thin.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Thin.woff) format("woff");
+    font-weight:100;
+    font-style:normal;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Ultra.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Ultra.woff) format("woff");
+    font-weight:800;
+    font-style:normal;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Black_Italic.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Black_Italic.woff) format("woff");
+    font-weight:700;
+    font-style:italic;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Bold_Italic.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Bold_Italic.woff) format("woff");
+    font-weight:600;
+    font-style:italic;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Italic.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Italic.woff) format("woff");
+    font-weight:400;
+    font-style:italic;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Light_Italic.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Light_Italic.woff) format("woff");
+    font-weight:300;
+    font-style:italic;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Semibold_Italic.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Semibold_Italic.woff) format("woff");
+    font-weight:500;
+    font-style:italic;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Thin_Italic.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Thin_Italic.woff) format("woff");
+    font-weight:100;
+    font-style:italic;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Display';
+    src:url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Ultra_Italic.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-display/Charlie_Display-Ultra_Italic.woff) format("woff");
+    font-weight:800;
+    font-style:italic;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Black.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Black.woff) format("woff");
+    font-weight:700;
+    font-style:normal;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Black_Italic.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Black_Italic.woff) format("woff");
+    font-weight:700;
+    font-style:italic;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Bold.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Bold.woff) format("woff");
+    font-weight:600;
+    font-style:normal;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Bold_Italic.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Bold_Italic.woff) format("woff");
+    font-weight:600;
+    font-style:italic;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Italic.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Italic.woff) format("woff");
+    font-weight:400;
+    font-style:italic;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Light.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Light.woff) format("woff");
+    font-weight:300;
+    font-style:normal;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Light_Italic.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Light_Italic.woff) format("woff");
+    font-weight:300;
+    font-style:italic;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Regular.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Regular.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Semibold.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Semibold.woff) format("woff");
+    font-weight:500;
+    font-style:normal;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Semibold_Italic.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Semibold_Italic.woff) format("woff");
+    font-weight:500;
+    font-style:italic;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Thin.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Thin.woff) format("woff");
+    font-weight:100;
+    font-style:normal;
+    font-display:swap
+   }
+   @font-face {
+    font-family:'Charlie Text';
+    src:url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Thin_Italic.woff2) format("woff2"),url(/dam/fonts/charlie-sans/charlie-text/Charlie_Text-Thin_Italic.woff) format("woff");
+    font-weight:100;
+    font-style:italic;
+    font-display:swap
+   }
+   @font-face {
+    font-family:Circular;
+    src:url(/dam/fonts/circular/lineto-circular-book-c.eot);
+    src:url(/dam/fonts/circular/lineto-circular-book-c.eot?#iefix) format("embedded-opentype"),url(/dam/fonts/circular/lineto-circular-book-c.woff) format("woff"),url(/dam/fonts/circular/lineto-circular-book-c.ttf) format("truetype"),url(/dam/fonts/circular/lineto-circular-book-c.svg#Circular-Book) format("svg");
+    font-weight:400;
+    font-style:normal
+   }
+   @font-face {
+    font-family:Circular;
+    src:url(/dam/fonts/circular/lineto-circular-medium-c.eot);
+    src:url(/dam/fonts/circular/lineto-circular-medium-c.eot?#iefix) format("embedded-opentype"),url(/dam/fonts/circular/lineto-circular-medium-c.woff) format("woff"),url(/dam/fonts/circular/lineto-circular-medium-c.ttf) format("truetype"),url(/dam/fonts/circular/lineto-circular-medium-c.svg#Circular-Medium) format("svg");
+    font-weight:500;
+    font-style:normal
+   }
+   @font-face {
+    font-family:Circular;
+    src:url(/dam/fonts/circular/lineto-circular-bold-c.eot);
+    src:url(/dam/fonts/circular/lineto-circular-bold-c.eot?#iefix) format("embedded-opentype"),url(/dam/fonts/circular/lineto-circular-bold-c.woff) format("woff"),url(/dam/fonts/circular/lineto-circular-bold-c.ttf) format("truetype"),url(/dam/fonts/circular/lineto-circular-bold-c.svg#Circular-Bold) format("svg");
+    font-weight:600;
+    font-style:normal
+   }
+   @font-face {
+    font-family:Circular;
+    src:url(/dam/fonts/circular/lineto-circular-black-c.eot);
+    src:url(/dam/fonts/circular/lineto-circular-black-c.eot?#iefix) format("embedded-opentype"),url(/dam/fonts/circular/lineto-circular-black-c.woff) format("woff"),url(/dam/fonts/circular/lineto-circular-black-c.ttf) format("truetype"),url(/dam/fonts/circular/lineto-circular-black-c.svg#Circular-Black) format("svg");
+    font-weight:800;
+    font-style:normal
+   }
+   @font-face {
+    font-family:Circular;
+    src:url(/dam/fonts/circular/lineto-circular-bookitalic-c.eot);
+    src:url(/dam/fonts/circular/lineto-circular-bookitalic-c.eot?#iefix) format("embedded-opentype"),url(/dam/fonts/circular/lineto-circular-bookitalic-c.woff) format("woff"),url(/dam/fonts/circular/lineto-circular-bookitalic-c.ttf) format("truetype"),url(/dam/fonts/circular/lineto-circular-bookitalic-c.svg#Circular-Bookitalic) format("svg");
+    font-weight:400;
+    font-style:italic
+   }
+   @font-face {
+    font-family:Circular;
+    src:url(/dam/fonts/circular/lineto-circular-mediumitalic-c.eot);
+    src:url(/dam/fonts/circular/lineto-circular-mediumitalic-c.eot?#iefix) format("embedded-opentype"),url(/dam/fonts/circular/lineto-circular-mediumitalic-c.woff) format("woff"),url(/dam/fonts/circular/lineto-circular-mediumitalic-c.ttf) format("truetype"),url(/dam/fonts/circular/lineto-circular-mediumitalic-c.svg#Circular-Mediumitalic) format("svg");
+    font-weight:500;
+    font-style:italic
+   }
+   @font-face {
+    font-family:Circular;
+    src:url(/dam/fonts/circular/lineto-circular-bolditalic-c.eot);
+    src:url(/dam/fonts/circular/lineto-circular-bolditalic-c.eot?#iefix) format("embedded-opentype"),url(/dam/fonts/circular/lineto-circular-bolditalic-c.woff) format("woff"),url(/dam/fonts/circular/lineto-circular-bolditalic-c.ttf) format("truetype"),url(/dam/fonts/circular/lineto-circular-bolditalic-c.svg#Circular-Bolditalic) format("svg");
+    font-weight:600;
+    font-style:italic
+   }
+   @font-face {
+    font-family:Circular;
+    src:url(/dam/fonts/circular/lineto-circular-blackitalic-c.eot);
+    src:url(/dam/fonts/circular/lineto-circular-blackitalic-c.eot?#iefix) format("embedded-opentype"),url(/dam/fonts/circular/lineto-circular-blackitalic-c.woff) format("woff"),url(/dam/fonts/circular/lineto-circular-blackitalic-c.ttf) format("truetype"),url(/dam/fonts/circular/lineto-circular-blackitalic-c.svg#Circular-Blackitalic) format("svg");
+    font-weight:800;
+    font-style:italic
+   }
+   .column__bobblehead h6 {
+    font-family:Charlie Display,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Noto Sans,Ubuntu,Droid Sans,Helvetica Neue,sans-serif;
+    font-style:normal;
+    font-weight:600;
+    font-size:16px;
+    padding-top:10px;
+    text-align:center
+   }
+   .column__bobblehead {
+    position:relative;
+    text-align:center;
+    transition:opacity .3s
+   }
+   .column__bobblehead:hover {
+    cursor:pointer
+   }
+   .column__bobblehead:focus .bobblehead__head,.column__bobblehead:hover .bobblehead__head {
+    animation:bobble .4s infinite ease-in-out;
+    transform-origin:bottom center
+   }
+   @media only screen and (min-width:960px) {
+    .column__bobblehead {
+     padding-bottom:34px
+    }
+    .column__bobblehead h6 {
+     min-width:200px;
+     position:absolute;
+     left:50%;
+     transform:translateX(-50%)
+    }
+   }
+   @media only screen and (min-width:801px) {
+    .column__bobblehead.colspan-1 {
+     margin-left:.49505%;
+     margin-right:.49505%;
+     width:13.29562%
+    }
+    .column__bobblehead:nth-child(odd) {
+     margin-top:20px
+    }
+    .column__bobblehead:nth-child(even) {
+     margin-top:60px
+    }
+    .column__bobblehead .bobblehead__head {
+     width:70%
+    }
+    .column__bobblehead .bobblehead__head+img {
+     width:90%
+    }
+    .column__bobblehead .headshot-link,.column__bobblehead .imkt-social-link,.column__bobblehead .mobile-bio-link {
+     display:none!important
+    }
+    .column__bobblehead.inactive {
+     opacity:.5
+    }
+    .column__bobblehead.inactive:hover {
+     opacity:.8
+    }
+   }
+   .column__bobblehead .mobile-bio-text-wrapper {
+    display:none;
+    margin-top:25px
+   }
+   @media only screen and (min-width:801px) {
+    .column__bobblehead .mobile-bio-text-wrapper {
+     display:none!important
+    }
+   }
+   .bobblehead__head {
+    z-index:1
+   }
+   @keyframes bobble {
+    25% {
+     transform:translateY(-5px) rotate(-3deg)
+    }
+    50% {
+     transform:rotate(0)
+    }
+    75% {
+     transform:translateY(5px) rotate(5deg)
+    }
+   }
+   .column__bios-wrapper {
+    min-height:0;
+    overflow:hidden
+   }
+   @media only screen and (max-width:800px) {
+    .column__bobblehead {
+     margin-bottom:30px
+    }
+    .column__bobblehead h6 {
+     margin-bottom:10px
+    }
+    .column__bobblehead .bobblehead__head {
+     max-width:100px
+    }
+    .column__bobblehead .bobblehead__head+img {
+     max-width:150px
+    }
+    .column__bios-wrapper {
+     display:none!important
+    }
+   }
+   body.edit .column__bios-wrapper {
+    min-height:max-content!important
+   }
+   .column__bios-wrapper .section__bio .grid::after {
+    padding-bottom:0
+   }
+   .column__bios-wrapper .section__bio .column {
+    margin-bottom:0
+   }
+   .section__bio {
+    padding-top:50px;
+    opacity:0;
+    position:absolute;
+    transition:opacity .3s
+   }
+   .section__bio.open,body.edit .section__bio {
+    opacity:1;
+    position:relative
+   }
+   .section__bio .aui-icon {
+    position:absolute;
+    top:50px;
+    right:20px
+   }
+   .section__bio .aui-icon::before {
+    color:#C1C7D0
+   }
+   .section__bio .aui-icon:hover::before {
+    color:#505F79
+   }
+   .section__bio .headshot-link {
+    margin-bottom:25px
+   }
+   .column__boardmember .headshot-link,.column__boardmember .mobile-bio-link,.column__bobblehead .headshot-link,.column__bobblehead .mobile-bio-link,.section__bio .headshot-link,.section__bio .mobile-bio-link {
+    border-right:1px solid #C1C7D0;
+    line-height:18px;
+    margin-right:8px;
+    margin-top:0!important;
+    padding-right:10px;
+    vertical-align:top
+   }
+   .column__boardmember a.imkt-social-link,.column__bobblehead a.imkt-social-link,.section__bio a.imkt-social-link {
+    display:inline-block;
+    height:18px;
+    margin-top:0;
+    padding-right:8px
+   }
+   .column__boardmember a.imkt-social-link:hover,.column__bobblehead a.imkt-social-link:hover,.section__bio a.imkt-social-link:hover {
+    text-decoration:none
+   }
+   .column__boardmember a.imkt-social-link:hover img,.column__bobblehead a.imkt-social-link:hover img,.section__bio a.imkt-social-link:hover img {
+    transform:scale(1.1);
+    transition:.3s
+   }
+   @media only screen and (max-width:640px) {
+    .column__boardmember {
+     text-align:center
+    }
+    .column__boardmember img {
+     margin-left:auto;
+     margin-right:auto
+    }
+   }
+.tippy-iOS {
+ cursor:pointer!important;
+ -webkit-tap-highlight-color:transparent
+}
+.tippy-popper {
+ transition-timing-function:cubic-bezier(.165,.84,.44,1);
+ max-width:calc(100% - 8px);
+ pointer-events:none;
+ outline:0
+}
+.tippy-popper[x-placement^=top] .tippy-backdrop {
+ border-radius:40% 40% 0 0
+}
+.tippy-popper[x-placement^=top] .tippy-roundarrow {
+ bottom:-7px;
+ bottom:-6.5px;
+ -webkit-transform-origin:50% 0;
+ transform-origin:50% 0;
+ margin:0 3px
+}
+.tippy-popper[x-placement^=top] .tippy-roundarrow svg {
+ position:absolute;
+ left:0;
+ -webkit-transform:rotate(180deg);
+ transform:rotate(180deg)
+}
+.tippy-popper[x-placement^=top] .tippy-arrow {
+ border-top:8px solid #333;
+ border-right:8px solid transparent;
+ border-left:8px solid transparent;
+ bottom:-7px;
+ margin:0 3px;
+ -webkit-transform-origin:50% 0;
+ transform-origin:50% 0
+}
+.tippy-popper[x-placement^=top] .tippy-backdrop {
+ -webkit-transform-origin:0 25%;
+ transform-origin:0 25%
+}
+.tippy-popper[x-placement^=top] .tippy-backdrop[data-state=visible] {
+ -webkit-transform:scale(1) translate(-50%,-55%);
+ transform:scale(1) translate(-50%,-55%)
+}
+.tippy-popper[x-placement^=top] .tippy-backdrop[data-state=hidden] {
+ -webkit-transform:scale(.2) translate(-50%,-45%);
+ transform:scale(.2) translate(-50%,-45%);
+ opacity:0
+}
+.tippy-popper[x-placement^=top] [data-animation=shift-toward][data-state=visible] {
+ -webkit-transform:translateY(-10px);
+ transform:translateY(-10px)
+}
+.tippy-popper[x-placement^=top] [data-animation=shift-toward][data-state=hidden] {
+ opacity:0;
+ -webkit-transform:translateY(-20px);
+ transform:translateY(-20px)
+}
+.tippy-popper[x-placement^=top] [data-animation=perspective] {
+ -webkit-transform-origin:bottom;
+ transform-origin:bottom
+}
+.tippy-popper[x-placement^=top] [data-animation=perspective][data-state=visible] {
+ -webkit-transform:perspective(700px) translateY(-10px);
+ transform:perspective(700px) translateY(-10px)
+}
+.tippy-popper[x-placement^=top] [data-animation=perspective][data-state=hidden] {
+ opacity:0;
+ -webkit-transform:perspective(700px) rotateX(60deg);
+ transform:perspective(700px) rotateX(60deg)
+}
+.tippy-popper[x-placement^=top] [data-animation=fade][data-state=visible] {
+ -webkit-transform:translateY(-10px);
+ transform:translateY(-10px)
+}
+.tippy-popper[x-placement^=top] [data-animation=fade][data-state=hidden] {
+ opacity:0;
+ -webkit-transform:translateY(-10px);
+ transform:translateY(-10px)
+}
+.tippy-popper[x-placement^=top] [data-animation=shift-away][data-state=visible] {
+ -webkit-transform:translateY(-10px);
+ transform:translateY(-10px)
+}
+.tippy-popper[x-placement^=top] [data-animation=shift-away][data-state=hidden] {
+ opacity:0
+}
+.tippy-popper[x-placement^=top] [data-animation=scale] {
+ -webkit-transform-origin:bottom;
+ transform-origin:bottom
+}
+.tippy-popper[x-placement^=top] [data-animation=scale][data-state=visible] {
+ -webkit-transform:translateY(-10px);
+ transform:translateY(-10px)
+}
+.tippy-popper[x-placement^=top] [data-animation=scale][data-state=hidden] {
+ opacity:0;
+ -webkit-transform:translateY(-10px) scale(.5);
+ transform:translateY(-10px) scale(.5)
+}
+.tippy-popper[x-placement^=bottom] .tippy-backdrop {
+ border-radius:0 0 30% 30%
+}
+.tippy-popper[x-placement^=bottom] .tippy-roundarrow {
+ top:-7px;
+ -webkit-transform-origin:50% 100%;
+ transform-origin:50% 100%;
+ margin:0 3px
+}
+.tippy-popper[x-placement^=bottom] .tippy-roundarrow svg {
+ position:absolute;
+ left:0
+}
+.tippy-popper[x-placement^=bottom] .tippy-arrow {
+ border-bottom:8px solid #333;
+ border-right:8px solid transparent;
+ border-left:8px solid transparent;
+ top:-7px;
+ margin:0 3px;
+ -webkit-transform-origin:50% 100%;
+ transform-origin:50% 100%
+}
+.tippy-popper[x-placement^=bottom] .tippy-backdrop {
+ -webkit-transform-origin:0 -50%;
+ transform-origin:0 -50%
+}
+.tippy-popper[x-placement^=bottom] .tippy-backdrop[data-state=visible] {
+ -webkit-transform:scale(1) translate(-50%,-45%);
+ transform:scale(1) translate(-50%,-45%)
+}
+.tippy-popper[x-placement^=bottom] .tippy-backdrop[data-state=hidden] {
+ -webkit-transform:scale(.2) translate(-50%);
+ transform:scale(.2) translate(-50%);
+ opacity:0
+}
+.tippy-popper[x-placement^=bottom] [data-animation=shift-toward][data-state=visible] {
+ -webkit-transform:translateY(10px);
+ transform:translateY(10px)
+}
+.tippy-popper[x-placement^=bottom] [data-animation=shift-toward][data-state=hidden] {
+ opacity:0;
+ -webkit-transform:translateY(20px);
+ transform:translateY(20px)
+}
+.tippy-popper[x-placement^=bottom] [data-animation=perspective] {
+ -webkit-transform-origin:top;
+ transform-origin:top
+}
+.tippy-popper[x-placement^=bottom] [data-animation=perspective][data-state=visible] {
+ -webkit-transform:perspective(700px) translateY(10px);
+ transform:perspective(700px) translateY(10px)
+}
+.tippy-popper[x-placement^=bottom] [data-animation=perspective][data-state=hidden] {
+ opacity:0;
+ -webkit-transform:perspective(700px) rotateX(-60deg);
+ transform:perspective(700px) rotateX(-60deg)
+}
+.tippy-popper[x-placement^=bottom] [data-animation=fade][data-state=visible] {
+ -webkit-transform:translateY(10px);
+ transform:translateY(10px)
+}
+.tippy-popper[x-placement^=bottom] [data-animation=fade][data-state=hidden] {
+ opacity:0;
+ -webkit-transform:translateY(10px);
+ transform:translateY(10px)
+}
+.tippy-popper[x-placement^=bottom] [data-animation=shift-away][data-state=visible] {
+ -webkit-transform:translateY(10px);
+ transform:translateY(10px)
+}
+.tippy-popper[x-placement^=bottom] [data-animation=shift-away][data-state=hidden] {
+ opacity:0
+}
+.tippy-popper[x-placement^=bottom] [data-animation=scale] {
+ -webkit-transform-origin:top;
+ transform-origin:top
+}
+.tippy-popper[x-placement^=bottom] [data-animation=scale][data-state=visible] {
+ -webkit-transform:translateY(10px);
+ transform:translateY(10px)
+}
+.tippy-popper[x-placement^=bottom] [data-animation=scale][data-state=hidden] {
+ opacity:0;
+ -webkit-transform:translateY(10px) scale(.5);
+ transform:translateY(10px) scale(.5)
+}
+.tippy-popper[x-placement^=left] .tippy-backdrop {
+ border-radius:50% 0 0 50%
+}
+.tippy-popper[x-placement^=left] .tippy-roundarrow {
+ right:-12px;
+ -webkit-transform-origin:33.33333333% 50%;
+ transform-origin:33.33333333% 50%;
+ margin:3px 0
+}
+.tippy-popper[x-placement^=left] .tippy-roundarrow svg {
+ position:absolute;
+ left:0;
+ -webkit-transform:rotate(90deg);
+ transform:rotate(90deg)
+}
+.tippy-popper[x-placement^=left] .tippy-arrow {
+ border-left:8px solid #333;
+ border-top:8px solid transparent;
+ border-bottom:8px solid transparent;
+ right:-7px;
+ margin:3px 0;
+ -webkit-transform-origin:0 50%;
+ transform-origin:0 50%
+}
+.tippy-popper[x-placement^=left] .tippy-backdrop {
+ -webkit-transform-origin:50% 0;
+ transform-origin:50% 0
+}
+.tippy-popper[x-placement^=left] .tippy-backdrop[data-state=visible] {
+ -webkit-transform:scale(1) translate(-50%,-50%);
+ transform:scale(1) translate(-50%,-50%)
+}
+.tippy-popper[x-placement^=left] .tippy-backdrop[data-state=hidden] {
+ -webkit-transform:scale(.2) translate(-75%,-50%);
+ transform:scale(.2) translate(-75%,-50%);
+ opacity:0
+}
+.tippy-popper[x-placement^=left] [data-animation=shift-toward][data-state=visible] {
+ -webkit-transform:translateX(-10px);
+ transform:translateX(-10px)
+}
+.tippy-popper[x-placement^=left] [data-animation=shift-toward][data-state=hidden] {
+ opacity:0;
+ -webkit-transform:translateX(-20px);
+ transform:translateX(-20px)
+}
+.tippy-popper[x-placement^=left] [data-animation=perspective] {
+ -webkit-transform-origin:right;
+ transform-origin:right
+}
+.tippy-popper[x-placement^=left] [data-animation=perspective][data-state=visible] {
+ -webkit-transform:perspective(700px) translateX(-10px);
+ transform:perspective(700px) translateX(-10px)
+}
+.tippy-popper[x-placement^=left] [data-animation=perspective][data-state=hidden] {
+ opacity:0;
+ -webkit-transform:perspective(700px) rotateY(-60deg);
+ transform:perspective(700px) rotateY(-60deg)
+}
+.tippy-popper[x-placement^=left] [data-animation=fade][data-state=visible] {
+ -webkit-transform:translateX(-10px);
+ transform:translateX(-10px)
+}
+.tippy-popper[x-placement^=left] [data-animation=fade][data-state=hidden] {
+ opacity:0;
+ -webkit-transform:translateX(-10px);
+ transform:translateX(-10px)
+}
+.tippy-popper[x-placement^=left] [data-animation=shift-away][data-state=visible] {
+ -webkit-transform:translateX(-10px);
+ transform:translateX(-10px)
+}
+.tippy-popper[x-placement^=left] [data-animation=shift-away][data-state=hidden] {
+ opacity:0
+}
+.tippy-popper[x-placement^=left] [data-animation=scale] {
+ -webkit-transform-origin:right;
+ transform-origin:right
+}
+.tippy-popper[x-placement^=left] [data-animation=scale][data-state=visible] {
+ -webkit-transform:translateX(-10px);
+ transform:translateX(-10px)
+}
+.tippy-popper[x-placement^=left] [data-animation=scale][data-state=hidden] {
+ opacity:0;
+ -webkit-transform:translateX(-10px) scale(.5);
+ transform:translateX(-10px) scale(.5)
+}
+.tippy-popper[x-placement^=right] .tippy-backdrop {
+ border-radius:0 50% 50% 0
+}
+.tippy-popper[x-placement^=right] .tippy-roundarrow {
+ left:-12px;
+ -webkit-transform-origin:66.66666666% 50%;
+ transform-origin:66.66666666% 50%;
+ margin:3px 0
+}
+.tippy-popper[x-placement^=right] .tippy-roundarrow svg {
+ position:absolute;
+ left:0;
+ -webkit-transform:rotate(-90deg);
+ transform:rotate(-90deg)
+}
+.tippy-popper[x-placement^=right] .tippy-arrow {
+ border-right:8px solid #333;
+ border-top:8px solid transparent;
+ border-bottom:8px solid transparent;
+ left:-7px;
+ margin:3px 0;
+ -webkit-transform-origin:100% 50%;
+ transform-origin:100% 50%
+}
+.tippy-popper[x-placement^=right] .tippy-backdrop {
+ -webkit-transform-origin:-50% 0;
+ transform-origin:-50% 0
+}
+.tippy-popper[x-placement^=right] .tippy-backdrop[data-state=visible] {
+ -webkit-transform:scale(1) translate(-50%,-50%);
+ transform:scale(1) translate(-50%,-50%)
+}
+.tippy-popper[x-placement^=right] .tippy-backdrop[data-state=hidden] {
+ -webkit-transform:scale(.2) translate(-25%,-50%);
+ transform:scale(.2) translate(-25%,-50%);
+ opacity:0
+}
+.tippy-popper[x-placement^=right] [data-animation=shift-toward][data-state=visible] {
+ -webkit-transform:translateX(10px);
+ transform:translateX(10px)
+}
+.tippy-popper[x-placement^=right] [data-animation=shift-toward][data-state=hidden] {
+ opacity:0;
+ -webkit-transform:translateX(20px);
+ transform:translateX(20px)
+}
+.tippy-popper[x-placement^=right] [data-animation=perspective] {
+ -webkit-transform-origin:left;
+ transform-origin:left
+}
+.tippy-popper[x-placement^=right] [data-animation=perspective][data-state=visible] {
+ -webkit-transform:perspective(700px) translateX(10px);
+ transform:perspective(700px) translateX(10px)
+}
+.tippy-popper[x-placement^=right] [data-animation=perspective][data-state=hidden] {
+ opacity:0;
+ -webkit-transform:perspective(700px) rotateY(60deg);
+ transform:perspective(700px) rotateY(60deg)
+}
+.tippy-popper[x-placement^=right] [data-animation=fade][data-state=visible] {
+ -webkit-transform:translateX(10px);
+ transform:translateX(10px)
+}
+.tippy-popper[x-placement^=right] [data-animation=fade][data-state=hidden] {
+ opacity:0;
+ -webkit-transform:translateX(10px);
+ transform:translateX(10px)
+}
+.tippy-popper[x-placement^=right] [data-animation=shift-away][data-state=visible] {
+ -webkit-transform:translateX(10px);
+ transform:translateX(10px)
+}
+.tippy-popper[x-placement^=right] [data-animation=shift-away][data-state=hidden] {
+ opacity:0
+}
+.tippy-popper[x-placement^=right] [data-animation=scale] {
+ -webkit-transform-origin:left;
+ transform-origin:left
+}
+.tippy-popper[x-placement^=right] [data-animation=scale][data-state=visible] {
+ -webkit-transform:translateX(10px);
+ transform:translateX(10px)
+}
+.tippy-popper[x-placement^=right] [data-animation=scale][data-state=hidden] {
+ opacity:0;
+ -webkit-transform:translateX(10px) scale(.5);
+ transform:translateX(10px) scale(.5)
+}
+.tippy-tooltip {
+ position:relative;
+ color:#fff;
+ border-radius:.25rem;
+ font-size:.875rem;
+ padding:.3125rem .5625rem;
+ line-height:1.4;
+ text-align:center;
+ background-color:#333
+}
+.tippy-tooltip[data-size=small] {
+ padding:.1875rem .375rem;
+ font-size:.75rem
+}
+.tippy-tooltip[data-size=large] {
+ padding:.375rem .75rem;
+ font-size:1rem
+}
+.tippy-tooltip[data-animatefill] {
+ overflow:hidden;
+ background-color:initial
+}
+.tippy-tooltip[data-interactive],.tippy-tooltip[data-interactive] .tippy-roundarrow path {
+ pointer-events:auto
+}
+.tippy-tooltip[data-inertia][data-state=visible] {
+ transition-timing-function:cubic-bezier(.54,1.5,.38,1.11)
+}
+.tippy-tooltip[data-inertia][data-state=hidden] {
+ transition-timing-function:ease
+}
+.tippy-arrow,.tippy-roundarrow {
+ position:absolute;
+ width:0;
+ height:0
+}
+.tippy-roundarrow {
+ width:18px;
+ height:7px;
+ fill:#333;
+ pointer-events:none
+}
+.tippy-backdrop {
+ position:absolute;
+ background-color:#333;
+ border-radius:50%;
+ width:calc(110% + 2rem);
+ left:50%;
+ top:50%;
+ z-index:-1;
+ transition:all cubic-bezier(.46,.1,.52,.98);
+ -webkit-backface-visibility:hidden;
+ backface-visibility:hidden
+}
+.tippy-backdrop:after {
+ content:"";
+ float:left;
+ padding-top:100%
+}
+.tippy-backdrop+.tippy-content {
+ transition-property:opacity;
+ will-change:opacity
+}
+.tippy-backdrop+.tippy-content[data-state=hidden] {
+ opacity:0
+}
+   
