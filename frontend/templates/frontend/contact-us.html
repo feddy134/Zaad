@@ -1,108 +1,39 @@
-<style>
-
-.button.green-solid {
-    background-color: #0052CC;
-    border-color: #0052CC;
-    color: #FFF;
-    
-    padding-left: 19px;
-    padding-right: 19px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    border-left-width: 1px;
-    border-bottom-width: 1px;
-    border-top-width: 1px;
-    border-right-width: 1px;
-    margin-bottom: 15px;
-    width: 82px;
-    height: 43px;
-
-}
-</style>
-
-<main>
-    
-<section class="wac-form wac-form--general text-left"> 
-    <div class="grid grid-6 vertical-gutters-standard vertical-padding-standard" style="
-        background: rgba(52, 51, 54, 0.04)!important;
-    padding-top: 50px;"> 
-        <div class="column colspan-all text-center"> 
+<div class="container-contact100">
+         <div class="column colspan-all text-center"> 
             <h2 class="display-none--mobile">Have a question for us?</h2> 
             <h1 class="display-none--desktop display-none--tablet">General inquiries</h1> 
         </div> 
-        <br><br>    
-        <div class="column colspan-4 wac-form__column-wrapper wac-form__column-wrapper--general text-left push push-1"> 
-            <form name="ca-general-inquiries" class="jq_conditional_form" data-confirmation-page="thanks" novalidate="novalidate"> 
-                <div class="info-wrap"> <div class="left-side"> 
-                    <label for="email"> Your email address </label> 
-                </div> 
-                <div class="right-side"> 
-                     <input id="email" type="email" name="email" data-field-desc="Email address" 
-                     placeholder="name@email.com" data-aui-validation-field="" 
-                     data-aui-validation-cst-email="VALID_EMAIL_ADDRESS_PATTERN" data-aui-validation-when="blur" 
-                     resolved="" data-aui-notification-field="" class="_aui-form-validation-initialised _aui-form-notification-initialised" 
-                     data-aui-validation-state="unvalidated">
-                     <span class="aui-icon aui-icon-small aui-icon-notification" original-title=""></span>
-                     <div class="info-wrap hp-field-value">
-                         <div class="left-side">
-                             <label for="product_name">Product name</label>
-                            </div>
-                            <div class="right-side">
-                                <input id="product_name" type="text" name="product_name">
-                            </div>
-                        </div>
-                        <div class="info-wrap hp-field-email" style="display: none;">
-                            <div class="left-side">
-                                <label for="customer_email">Your email address</label>
-                            </div>
-                            <div class="right-side">
-                                <input id="customer_email" type="email" name="customer_email" placeholder="name@email.com">
-                            </div>
-                        </div> <!-- <![endif]--> 
-                    </div> 
-                </div> 
-                <div class="info-wrap"> 
-                    <div class="left-side"> 
-                        <label for="email"> How can we help you? </label> 
-                    </div> <div class="right-side contact-category"> 
-                        <div class="select2-container selectReplace general_inquiry_select" id="s2id_autogen1">
-                            <a href="javascript:void(0)" onclick="return false;" class="select2-choice" tabindex="-1">   
-                                <span class="select2-chosen"></span>
-                                <abbr class="select2-search-choice-close"></abbr>   
-                                <span class="select2-arrow"><b></b></span>
-                            </a>
-                            <input class="select2-focusser select2-offscreen" type="text" id="s2id_autogen2">
-                        </div><select name="inquiry_category" class="selectReplace general_inquiry_select select2-offscreen" 
-                        data-field-desc="Inquiry Type" tabindex="-1"> 
-                        <option></option> 
-                        <option value="account">Help with my account</option> 
-                        <option value="technical_support">Help raising a support ticket</option> 
-                        <option value="talent_careers">Jobs at Atlassian</option>
-                         <option value="privacy">Privacy questions</option> 
-                         <option value="events">Event sponsorship</option> 
-                         <option value="press">Press contact or interview request</option> 
-                         <option value="other">Other</option> 
-                        </select> 
-                    </div> 
-                </div> 
-                <div class="info-wrap general_inquiry_form_element"> 
-                    <div class="left-side"> 
-                        <label for="message"> Your question </label> 
-                    </div> 
-                    <div class="right-side"> 
-                        <textarea id="message" name="question" data-field-desc="Message"></textarea> 
-                    </div> 
-                </div> 
-                <div id="jq_page_actions" class="general_inquiry_form_element" style="margin-top:30px"> 
-                    <div class="button green-solid standard js-cst-form-submit" style="">Send</div> 
-                </div> 
-                <div class="info-wrap optional-extras no-form-option" style="display:none" id="general_inquiry_atlas_note"> 
-                    <p> For event invitations and sponsorship requests<br> please contact our events team through our<br> Field Atlas portal </p> 
-                    <a href="http://fieldatlas.atlassian.net/servicedesk/customer/portal/2" class="button green-solid standard" 
-                    target="_blank">Go to Field Atlas</a> 
-                </div> 
-            </form> 
-        </div> 
-    </div> 
-</section> 
-</main>
+
+    <div class="wrap-contact100">
+        <form class="contact100-form validate-form">
+            <div class="wrap-input100 validate-input" data-validate="Name is required">
+                <span class="label-input100">Full Name:</span>
+                    <input class="input100" type="text" name="name" placeholder="Enter full name">
+                <span class="focus-input100"></span>
+            </div>
+            <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                <span class="label-input100">Email:</span>
+                    <input class="input100" type="text" name="email" placeholder="Enter email addess">
+                <span class="focus-input100"></span>
+            </div>
+            <div class="wrap-input100 validate-input" data-validate="Phone is required">
+                <span class="label-input100">Phone:</span>
+                    <input class="input100" type="text" name="phone" placeholder="Enter phone number">
+                <span class="focus-input100"></span>
+            </div>
+            <div class="wrap-input100 validate-input" data-validate="Message is required">
+                <span class="label-input100">Message:</span>
+                    <textarea class="input100" name="message" placeholder="Your Comment..." style="margin-top: 0px; margin-bottom: 0px; height: 127px;"></textarea>
+                <span class="focus-input100"></span>
+            </div>
+            <div class="container-contact100-form-btn">
+                <button class="contact100-form-btn">
+                    <span>
+                        Submit
+                        <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+                    </span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
