@@ -1,7 +1,7 @@
 #ourpeopleMAIN_80 {
     box-sizing: border-box;
     color: rgb(37, 56, 88);
-    height: 2743.42px;
+    height: 743.42px;
     min-height: calc(87% - 95px);
     text-decoration: none solid rgb(37, 56, 88);
     width: 1349px;
@@ -85,7 +85,6 @@
     box-sizing: border-box;
     clear: both;
     color: rgb(37, 56, 88);
-    content: '"' '"';
     display: table;
     height: 50px;
     min-height: auto;
@@ -106,7 +105,6 @@
 #ourpeopleDIV_2:before {
     box-sizing: border-box;
     color: rgb(37, 56, 88);
-    content: '"' '"';
     display: table;
     height: 50px;
     min-height: auto;
@@ -184,7 +182,7 @@
     transform-origin: 480px 24px;
     caret-color: rgb(37, 56, 88);
     border: 0px none rgb(37, 56, 88);
-    font: normal normal 500 normal 36px / 48px "Charlie Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", Ubuntu, "Droid Sans", "Helvetica Neue", sans-serif;
+    font: normal normal 700 normal 40px / 48px Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     margin: 0px 0px 14px;
     outline: rgb(37, 56, 88) none 0px;
 }/*#ourpeopleH2_4*/
@@ -267,7 +265,7 @@
     text-align: left;
     text-decoration: none solid rgb(37, 56, 88);
     top: 0px;
-    width: 153.594px;
+    width: 200.594px;
     column-rule-color: rgb(37, 56, 88);
     perspective-origin: 76.7969px 118px;
     transform-origin: 76.7969px 118px;
@@ -966,3 +964,23 @@
     outline: rgb(37, 56, 88) none 0px;
 }/*#ourpeopleDIV_71:before*/
 
+
+
+
+
+
+/* Glow */
+.hvr-glow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+  }
+  .hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  }
