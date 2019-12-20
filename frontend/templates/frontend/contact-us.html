@@ -1,3 +1,4 @@
+
 <div class="container-contact100">
          <div class="column colspan-all text-center"> 
             <h2 class="display-none--mobile">Have a question for us?</h2> 
@@ -5,7 +6,8 @@
         </div> 
 
     <div class="wrap-contact100">
-        <form class="contact100-form validate-form">
+        <form class="contact100-form validate-form" method="POST">
+                {% csrf_token %}
             <div class="wrap-input100 validate-input" data-validate="Name is required">
                 <span class="label-input100">Full Name:</span>
                     <input class="input100" type="text" name="name" placeholder="Enter full name">
@@ -26,8 +28,9 @@
                     <textarea class="input100" name="message" placeholder="Your Comment..." style="margin-top: 0px; margin-bottom: 0px; height: 127px;"></textarea>
                 <span class="focus-input100"></span>
             </div>
+            <button type="submit" class="contact100-form-btn">ssss</button>
             <div class="container-contact100-form-btn">
-                <button class="contact100-form-btn">
+                <button type="submit" class="contact100-form-btn">
                     <span>
                         Submit
                         <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
