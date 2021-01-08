@@ -1,0 +1,89 @@
+/*! CSS Used from: https://consulting.vamtam.com/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.2.18 ; media=all */
+@media all{
+    rs-sbg-px{pointer-events:none;}
+    rs-module-wrap{visibility:hidden;}
+    rs-module-wrap,rs-module-wrap *{box-sizing:border-box;-webkit-tap-highlight-color:transparent;}
+    rs-module-wrap{position:relative;z-index:1;width:100%;display:block;}
+    rs-fw-forcer{display:block;width:100%;pointer-events:none;}
+    rs-module{position:relative;overflow:hidden;display:block;}
+    rs-pzimg-wrap,rs-sbg{display:block;pointer-events:none;}
+    rs-sbg-px,rs-sbg-wrap{position:absolute;top:0;left:0;z-index:0;width:100%;height:100%;display:block;}
+    rs-module img{max-width:none!important;transition:none;margin:0;padding:0;border:none;}
+    rs-slides,rs-slide,rs-slide:before{position:absolute;text-indent:0;top:0;left:0;}
+    rs-slide,rs-slide:before{display:block;visibility:hidden;}
+    .rs-layer-video{overflow:hidden;}
+    rs-module rs-layer,rs-module .rs-layer{opacity:0;position:relative;visibility:hidden;white-space:nowrap;display:block;-webkit-font-smoothing:antialiased!important;-webkit-tap-highlight-color:transparent;-moz-osx-font-smoothing:grayscale;z-index:1;}
+    rs-layer-wrap,rs-module-wrap,rs-module .rs-layer,rs-module img{-moz-user-select:none;-khtml-user-select:none;-webkit-user-select:none;-o-user-select:none;}
+    rs-module rs-mask-wrap .rs-layer,rs-module rs-mask-wrap *:last-child{margin-bottom:0;}
+    .rs-svg svg{width:100%;height:100%;position:relative;vertical-align:top;}
+    rs-layer:not(.rs-wtbindex),.rs-layer:not(.rs-wtbindex),.rs-layer *:not(.rs-wtbindex){outline:none!important;}
+    rs-module iframe{max-width:none!important;border:none;}
+    rs-layer-wrap,rs-loop-wrap,rs-mask-wrap{display:block;}
+    rs-layer-wrap,rs-mask-wrap{transform-style:flat;}
+    rs-mask-wrap{overflow:hidden;}
+    rs-fullwidth-wrap{position:relative;width:100%;height:auto;display:block;overflow:visible;max-width:none!important;}
+    .rs-layer img,rs-layer img{vertical-align:top;}
+    .rev-btn,.rev-btn:visited{outline:none!important;box-shadow:none;text-decoration:none!important;box-sizing:border-box;cursor:pointer;}
+    rs-progress{visibility:hidden;position:absolute;z-index:200;width:100%;height:100%;}
+    rs-progress-bar{display:block;z-index:20;box-sizing:border-box;background-clip:content-box;position:absolute;vertical-align:top;line-height:0;width:100%;height:100%;}
+    .rs-layer img{background:0 0;-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)";filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);zoom:1;}
+    rs-loader{top:50%;left:50%;z-index:10000;position:absolute;}
+    rs-loader.spinner2{width:40px;height:40px;margin-top:-20px;margin-left:-20px;background-color:red;box-shadow:0 0 20px 0 rgba(0,0,0,.15);border-radius:100%;animation:tp-scaleout 1s infinite ease-in-out;}
+    rs-layer iframe{visibility:hidden;}
+    rs-arrow{display:block;}
+    .tparrows{cursor:pointer;background:#000;background:rgba(0,0,0,.5);width:40px;height:40px;position:absolute;display:block;z-index:1000;}
+    .tparrows:hover{background:#000;}
+    .tparrows:before{font-family:revicons;font-size:15px;color:#fff;display:block;line-height:40px;text-align:center;}
+    .tparrows.tp-leftarrow:before{content:'\e824';}
+    .tparrows.tp-rightarrow:before{content:'\e825';}
+    rs-pzimg-wrap{display:block;}
+    rs-pzimg-wrap:before,rs-pzimg-wrap:after{height:500%;width:500%;}
+    }
+    /*! CSS Used from: Embedded */
+    #rev_slider_65_1 .rs-layer.rev-btn{box-shadow:0 15px 20px -5px rgba(14,56,133,0.15)!important;}
+    #rev_slider_65_1_wrapper rs-loader.spinner2{background-color:rgba(255, 255, 255, 0.4)!important;}
+    #rev_slider_65_1_wrapper .custom.tparrows{cursor:pointer;background:#000;background:rgba(0,0,0,0.5);width:40px;height:40px;position:absolute;display:block;z-index:1000;}
+    #rev_slider_65_1_wrapper .custom.tparrows:hover{background:#000;}
+    #rev_slider_65_1_wrapper .custom.tparrows:before{font-family:'revicons';font-size:15px;color:#fff;display:block;line-height:40px;text-align:center;}
+    #rev_slider_65_1_wrapper .custom.tparrows.tp-leftarrow:before{content:'\e824';}
+    #rev_slider_65_1_wrapper .custom.tparrows.tp-rightarrow:before{content:'\e825';}
+    /*! CSS Used from: https://consulting.vamtam.com/wp-content/themes/consulting/vamtam/assets/css/dist/all.css?ver=1599073165 ; media=all */
+    @media all{
+    div,header,iframe,img{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+    header{display:block;}
+    :disabled{cursor:not-allowed;}
+    .header-middle{position:relative;z-index:9;transform:translateZ(0);}
+    ::-moz-selection{color:var(--vamtam-accent-color-1-hc);background:var(--vamtam-accent-color-1);}
+    ::selection{color:var(--vamtam-accent-color-1-hc);background:var(--vamtam-accent-color-1);}
+    .main-container img{box-sizing:border-box;display:inline-block;max-width:100%;height:auto;}
+    .main-container iframe{display:block;max-width:100%;}
+    .tparrows.custom{transition:background .3s ease;border-radius:var(--vamtam-border-radius-oval);background:rgba(255,255,255,.1);width:48px;height:48px;box-shadow:0 0 10px 0 rgba(0,0,0,.05);text-align:center;}
+    .tparrows.custom:before{font-size:22px;line-height:48px;content:"\e824";transition:margin .2s ease;}
+    .tparrows.custom:hover{background:var(--vamtam-accent-color-1);}
+    @media print{
+    *{background:0 0!important;color:#000!important;text-shadow:none!important;-webkit-filter:none!important;filter:none!important;}
+    img{page-break-inside:avoid;}
+    }
+    }
+    /*! CSS Used from: Embedded */
+    @media (max-width: 0px){
+    #rev_slider_65_1_wrapper{height:0px;}
+    }
+    @media (min-width: 1px){
+    #rev_slider_65_1_wrapper{height:0px;}
+    }
+    /*! CSS Used from: https://consulting.vamtam.com/wp-content/themes/consulting/vamtam/assets/css/dist/responsive/layout-below-max.css?ver=1599073165 ; media=(max-width: 992px) */
+    @media (max-width: 992px){
+    body.responsive-layout .header-middle{margin-bottom:0;}
+    }
+    /*! CSS Used from: Embedded */
+    #header-slider-container{overflow:hidden;}
+    @media (min-width: 778px){
+    #rev_slider_65_1_wrapper{height:500px;}
+    }
+    /*! CSS Used from: Embedded */
+    #rev_slider_65_1_wrapper{height:478.4090909090909px;}
+    /*! CSS Used keyframes */
+    @keyframes tp-scaleout{0%{transform:scale(0);}100%{transform:scale(1);opacity:0;}}
+    /*! CSS Used fontfaces */
+    @font-face{font-family:revicons;src:url(https://consulting.vamtam.com/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.eot?5510888);src:url(https://consulting.vamtam.com/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.eot?5510888#iefix) format('embedded-opentype'),url(https://consulting.vamtam.com/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.woff?5510888) format('woff'),url(https://consulting.vamtam.com/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.ttf?5510888) format('truetype'),url(https://consulting.vamtam.com/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.svg?5510888#revicons) format('svg');font-weight:400;font-style:normal;}

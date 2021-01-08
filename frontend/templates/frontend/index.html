@@ -1,4 +1,4 @@
-    {% load static %}
+{% load static %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -25,6 +25,9 @@
     <link rel="stylesheet" href="{% static "about-us/about-us.css" %}">
     <link href="{% static "about-us/animate.min.css" %}" rel="stylesheet">
     <link rel="stylesheet" href="{% static "seema/app.css" %}">
+    <link rel="stylesheet" href="{% static "navbar/navbar.css" %}">"
+    <link rel="stylesheet" href="{% static "header/header.css" %}">
+
 
 
 
@@ -137,8 +140,10 @@
     </header> -->
     <!-- Include each section -->
     {% include 'frontend/about-us.html' %}
-
+<!--
     {% include 'frontend/services.html' %}
+
+-->
 
     {% include 'frontend/beginnings.html' %}
 
