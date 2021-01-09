@@ -35,3 +35,5 @@ pip install django
 python manage.py runserver - To run the project
 python manage.py makemigrations - To migrate the model into a migration file
 python manage.py migrate - To store in database
+pip freeze > requirements.txt - To store the libraries installed in your environment to a requirements text file
+pip install requirements.txt - To install the libraries used in the same project by different user

@@ -1,4 +1,4 @@
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <div class="container-contact100">
          <div class="column colspan-all text-center"> 
             <h2 class="display-none--mobile">Have a question for us?</h2> 
@@ -6,6 +6,7 @@
         </div> 
 
     <div class="wrap-contact100">
+        <div class="column colspan-all text-center">
         <form class="contact100-form validate-form" method="POST">
                 {% csrf_token %}
             <div class="wrap-input100 validate-input" data-validate="Name is required">
@@ -38,5 +39,6 @@
                 </button>
             </div>
         </form>
+    </div>
     </div>
 </div>
