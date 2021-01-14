@@ -4,6 +4,6 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    path('', views.test ),
+    path('', views.MainView.as_view() ,name='home'),
     # path('footer', views.footer),
 ]
