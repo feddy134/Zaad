@@ -1,96 +1,363 @@
-<section id="beginSECTION_1">
-	<div id="beginDIV_2">
-		
-			<div id="beginDIV_4">
-				<h2 id="beginH2_5">
-					Beginnings
-				</h2>
-			</div>
-		
-		<div id="beginDIV_7">
-			<div id="beginDIV_8">
-				<ul id="beginUL_9">
-					<li id="beginLI_10">
-						<div id="beginDIV_11">
-							<div class="begin-icon hvr-float-shadow"><i class="fa fa-play" style="padding-left: 20px;"></i></div>
-						</div>
-						<div id="beginDIV_13">
-							<div id="beginDIV_14">
-							
-								<h4 id="beginH4_16">
-									Our Humble Beginnings
-								</h4>
-							</div>
-							<div id="beginDIV_17">
-								<p id="beginP_18">
-									Tasnim  is  the founder of Zaad Financial and Legal  Consultants. She is an Associate member of the Institute of Chartered Accountants of India. She holds a Degree in Law  as also Cost Accountancy. She is in the field of Finance, Banking and Information Technology for more than 25 years of which ten years have been spent in the service of Public Sector Banks.
-								</p>
-							</div>
-						</div>
-					</li>
-					<li id="beginLI_19">
-						<div id="beginDIV_20">
-							<div class="begin-icon hvr-float-shadow"><i class="fa fa-road"></i></div>
+<style>
 
-						</div>
-						<div id="beginDIV_22">
-							<div id="beginDIV_23">
-								<h4 id="beginH4_25">
-									Journey
-								</h4>
+.main-timeline {
+    position: relative
+}
+
+.main-timeline:before {
+    content: "";
+    display: block;
+    width: 2px;
+    height: 100%;
+    background: #98999b;
+    margin: 0 auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0
+}
+
+.main-timeline .timeline {
+    margin-bottom: 40px;
+    position: relative
+}
+
+.main-timeline .timeline:after {
+    content: "";
+    display: block;
+    clear: both
+}
+
+.main-timeline .icon {
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0
+}
+
+.main-timeline .icon:before,
+.main-timeline .icon:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.33s ease-out 0s
+}
+
+.main-timeline .icon:before {
+    background: #fff;
+    border: 2px solid #232323;
+    left: -3px
+}
+
+.main-timeline .icon:after {
+    border: 2px solid #3787ff;
+    left: 3px
+}
+
+.main-timeline .timeline:hover .icon:before {
+    left: 3px
+}
+
+.main-timeline .timeline:hover .icon:after {
+    left: -3px
+}
+
+.main-timeline .date-content {
+    width: 50%;
+    float: left;
+    margin-top: 22px;
+    position: relative
+}
+
+.main-timeline .date-content:before {
+    content: "";
+    width: 36.5%;
+    height: 2px;
+    background: #98999b;
+    margin: auto 0;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    bottom: 0
+}
+
+.main-timeline .date-outer {
+    width: 125px;
+    height: 125px;
+    font-size: 16px;
+    text-align: center;
+    margin: auto;
+    z-index: 1
+}
+
+.main-timeline .date-outer:before,
+.main-timeline .date-outer:after {
+    content: "";
+    width: 125px;
+    height: 125px;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: all 0.33s ease-out 0s
+}
+
+.main-timeline .date-outer:before {
+    background: #fff;
+    border: 2px solid #232323;
+    left: -6px
+}
+
+.main-timeline .date-outer:after {
+    border: 2px solid #3787ff;
+    left: 6px
+}
+
+.main-timeline .timeline:hover .date-outer:before {
+    left: 6px
+}
+
+.main-timeline .timeline:hover .date-outer:after {
+    left: -6px
+}
+
+.main-timeline .date {
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    top: 27%;
+    left: 0
+}
+
+.main-timeline .month {
+    font-size: 18px;
+    font-weight: 700
+}
+
+.main-timeline .year {
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+    color: #232323;
+    line-height: 36px
+}
+
+.main-timeline .timeline-content {
+    width: 50%;
+    padding: 20px 0 20px 50px;
+    float: right
+}
+
+.main-timeline .title {
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 0 0 15px 0
+}
+
+.main-timeline .description {
+    margin-bottom: 0
+}
+
+.main-timeline .timeline:nth-child(2n) .date-content {
+    float: right
+}
+
+.main-timeline .timeline:nth-child(2n) .date-content:before {
+    left: 10px
+}
+
+.main-timeline .timeline:nth-child(2n) .timeline-content {
+    padding: 20px 50px 20px 0;
+    text-align: right
+}
+
+@media only screen and (max-width: 991px) {
+    .main-timeline .date-content {
+        margin-top: 35px
+    }
+    .main-timeline .date-content:before {
+        width: 22.5%
+    }
+    .main-timeline .timeline-content {
+        padding: 10px 0 10px 30px
+    }
+    .main-timeline .title {
+        font-size: 17px
+    }
+    .main-timeline .timeline:nth-child(2n) .timeline-content {
+        padding: 10px 30px 10px 0
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .main-timeline:before {
+        margin: 0;
+        left: 7px
+    }
+    .main-timeline .timeline {
+        margin-bottom: 20px
+    }
+    .main-timeline .timeline:last-child {
+        margin-bottom: 0
+    }
+    .main-timeline .icon {
+        margin: auto 0
+    }
+    .main-timeline .date-content {
+        width: 95%;
+        float: right;
+        margin-top: 0
+    }
+    .main-timeline .date-content:before {
+        display: none
+    }
+    .main-timeline .date-outer {
+        width: 110px;
+        height: 110px
+    }
+    .main-timeline .date-outer:before,
+    .main-timeline .date-outer:after {
+        width: 110px;
+        height: 110px
+    }
+    .main-timeline .date {
+        top: 30%
+    }
+    .main-timeline .year {
+        font-size: 24px
+    }
+    .main-timeline .timeline-content,
+    .main-timeline .timeline:nth-child(2n) .timeline-content {
+        width: 95%;
+        text-align: center;
+        padding: 10px 0
+    }
+    .main-timeline .title {
+        margin-bottom: 10px
+    }
+}
+
+.img-div {
+	
+    /* box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    height: 170px;
+    left: 555px;
+    position: absolute;
+    right: 470px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 170px;
+    z-index: 100;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 85px 85px;
+    transform-origin: 85px 85px;
+    caret-color: rgb(255, 255, 255);
+    background: rgb(55, 99, 235);
+    border: 7px solid rgb(233, 236, 239);
+    border-radius: 100% 100% 100% 100%;
+    font-family: montserrat,sans-serif;
+    list-style: outside none none;
+    margin: 0px 0px 0px -85px;
+    outline: rgb(255, 255, 255) none 0px; */
+}
+</style>
+
+<div class="container">
+	<h2 class="text-center mb-4">
+		Beginnings
+	</h2>
+	<div class="main-timeline">
+	
+							<!-- start experience section-->
+							<div class="timeline">
+								<div class="icon"></div>
+								<div class="date-content">
+									<div class="date-outer">
+										<div class="img-div">
+											<div class="begin-icon hvr-float-shadow"><i class="fa fa-play text-center text-primary"></i></div>
+										</div>
+									</div>
+								</div>
+								<div class="timeline-content">
+									<h5 class="title">Our Humble Beginnings</h5>
+									<p class="description">
+										Tasnim  is  the founder of Zaad Financial and Legal  Consultants. She is an Associate member of the Institute of Chartered Accountants of India. She holds a Degree in Law  as also Cost Accountancy. She is in the field of Finance, Banking and Information Technology for more than 25 years of which ten years have been spent in the service of Public Sector Banks.
+                                    </p>
+								</div>
 							</div>
-							<div id="beginDIV_26">
-								<p id="beginP_27">
-									She started her journey in the BFSI sector immediately after qualifying and was involved in Merchant Banking and Financial services. Thereafter, She slowly graduated to Banking. She was associated with Public Sector Banks like Vijaya  Bank, Oriental Bank of Commerce, Bank of India for a decade.  During her tenure with Vijay  Bank, she was responsible for  Branch Operations, Centralised  Balance sheet preparation, Audit, Retail advances, Export financing  and Commercial loans. 
+							<!-- end experience section-->
+	
+							<!-- start experience section-->
+							<div class="timeline">
+								<div class="icon"></div>
+								<div class="date-content">
+									<div class="date-outer">
+										<div class="img-div">
+											<div class="begin-icon hvr-float-shadow"><i class="fa fa-road text-center text-primary"></i></div>
+										</div>
+									</div>
+								</div>
+								<div class="timeline-content">
+									<h5 class="title">Journey</h5>
+									<p class="description">
+										She started her journey in the BFSI sector immediately after qualifying and was involved in Merchant Banking and Financial services. Thereafter, She slowly graduated to Banking. She was associated with Public Sector Banks like Vijaya  Bank, Oriental Bank of Commerce, Bank of India for a decade.  During her tenure with Vijay  Bank, she was responsible for  Branch Operations, Centralised  Balance sheet preparation, Audit, Retail advances, Export financing  and Commercial loans. 
 									</p>
+								</div>
 							</div>
-						</div>
-					</li>
-					<li id="beginLI_28">
-						<div id="beginDIV_29">
-							<div class="begin-icon hvr-float-shadow"><i class="fa fa-money"></i></div>
-
-						</div>
-						<div id="beginDIV_31">
-							<div id="beginDIV_32">
-								<h4 id="beginH4_34">
-									Exposure
-								</h4>
+							<!-- end experience section-->
+	
+							<!-- start experience section-->
+							<div class="timeline">
+								<div class="icon"></div>
+								<div class="date-content">
+									<div class="date-outer">
+										<div class="img-div">
+											<div class="begin-icon hvr-float-shadow"><i class="fa fa-money text-center text-primary"></i></div>
+										</div>
+									</div>
+								</div>
+								<div class="timeline-content">
+									<h5 class="title">Exposure</h5>
+									<p class="description">
+										She managed the  Domestic Treasury Desk at Oriental Bank, with responsibilities for Mid- office and Back office.  While at Bank of India, She was well exposed to the various facets of credit like, Credit Appraisal, Evaluation and  Monitoring and Treasury Operations. She was instrumental in setting up the first MSME cell of the Bank. After a decade long career in Banking, she developed an interest in making Information Technology to work for electronic banking and digitising the processes and banking procedures.
+                                    </p>
+								</div>
 							</div>
-							<div id="beginDIV_35">
-								<p id="beginP_36">
-									She managed the  Domestic Treasury Desk at Oriental Bank, with responsibilities for Mid- office and Back office.  While at Bank of India, She was well exposed to the various facets of credit like, Credit Appraisal, Evaluation and  Monitoring and Treasury Operations. She was instrumental in setting up the first MSME cell of the Bank. After a decade long career in Banking, she developed an interest in making Information Technology to work for electronic banking and digitising the processes and banking procedures.
-								</p>
+							<!-- end experience section-->
+	
+							<!-- start experience section-->
+							<div class="timeline">
+								<div class="icon"></div>
+								<div class="date-content">
+									<div class="date-outer">
+										<div class="img-div">
+											<div class="begin-icon hvr-float-shadow"><i class="fa fa-arrows-alt text-center text-primary"></i></div>
+										</div>
+									</div>
+								</div>
+								<div class="timeline-content">
+									<h5 class="title">Expansion</h5>
+									<p class="description">
+										During her decade long tenure at IDBI Intech, she has managed a range of Portfolios providing functional consultancy in the areas of Risk, Advances, NPA, Payment systems, Net-banking and alternate channels to ensure regulatory compliance and customer convenience. She also trains IT professionals as well as Bankers in the area of General Banking, Financial analysis and Credit appraisal. She has also handled the Risk Management Portfolio (Basel Requirements) of the Bank.  
+                                    </p>
+								</div>
 							</div>
+							<!-- end experience section-->
+	
 						</div>
-					</li>
-					<li id="beginLI_37">
-						<div id="beginDIV_38">
-							<div class="begin-icon hvr-float-shadow"><i class="fa fa-arrows-alt"></i></div>
-							
-						</div>
-						<div id="beginDIV_40">
-							<div id="beginDIV_41">
-								<h4 id="beginH4_43">
-									Expansion
-								</h4>
-							</div>
-							<div id="beginDIV_44">
-								<p id="beginP_45">
-									During her decade long tenure at IDBI Intech, she has managed a range of Portfolios providing functional consultancy in the areas of Risk, Advances, NPA, Payment systems, Net-banking and alternate channels to ensure regulatory compliance and customer convenience. She also trains IT professionals as well as Bankers in the area of General Banking, Financial analysis and Credit appraisal. She has also handled the Risk Management Portfolio (Basel Requirements) of the Bank.  
-								</p>
-							</div>
-						</div>
-					</li>
-					<li id="beginLI_46">
-						<div id="beginDIV_47">
-							<h4 id="beginH4_48">
-								Be Part<br id="beginBR_49" />Of Our<br id="beginBR_50" />Story!
-							</h4>
-						</div>
-					</li>
-				</ul>
-			</div>
-		</div>
 	</div>
-</section>
