@@ -655,7 +655,7 @@ a {
 	padding: 20px 25px;
 	border-style: solid;
 	border-width: 2px;
-	border-color: #f79617;
+	border-color: #007bff;
 	background-color: #fff5e9;
 	text-decoration: none
 }
@@ -687,7 +687,7 @@ a {
 
 .btn_background.cc-orangebg {
 	z-index: 1;
-	background-color: #f79617;
+	background-color: #007bff;
 	-webkit-transform-origin: 0 50%;
 	-ms-transform-origin: 0 50%;
 	transform-origin: 0 50%
