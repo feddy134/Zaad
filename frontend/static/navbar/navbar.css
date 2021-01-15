@@ -558,7 +558,8 @@ a {
 	bottom: 10px;
 	width: 100%;
 	height: 26px;
-	background-color: #f79617;
+	/* background-color: #f79617; */
+	background-color:#007bff
 	-webkit-transform-origin: 0 50%;
 	-ms-transform-origin: 0 50%;
 	transform-origin: 0 50%
