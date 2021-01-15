@@ -87,3 +87,18 @@
     @keyframes tp-scaleout{0%{transform:scale(0);}100%{transform:scale(1);opacity:0;}}
     /*! CSS Used fontfaces */
     @font-face{font-family:revicons;src:url(https://consulting.vamtam.com/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.eot?5510888);src:url(https://consulting.vamtam.com/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.eot?5510888#iefix) format('embedded-opentype'),url(https://consulting.vamtam.com/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.woff?5510888) format('woff'),url(https://consulting.vamtam.com/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.ttf?5510888) format('truetype'),url(https://consulting.vamtam.com/wp-content/plugins/revslider/public/assets/fonts/revicons/revicons.svg?5510888#revicons) format('svg');font-weight:400;font-style:normal;}
+
+
+
+    /*! CSS Used from: https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css */
+@media print{
+    *,:after,:before{color:#000!important;text-shadow:none!important;background:0 0!important;-webkit-box-shadow:none!important;box-shadow:none!important;}
+    p{orphans:3;widows:3;}
+    }
+    *{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+    :after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+    p{margin:0 0 10px;}
+    /*! CSS Used from: https://www.w3schools.com/lib/w3schools23.css */
+    *,*:before,*:after{box-sizing:inherit;}
+    :disabled *{pointer-events:none;}
+    p{margin-top:1.2em;margin-bottom:1.2em;font-size:15px;}
