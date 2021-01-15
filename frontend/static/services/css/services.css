@@ -10,7 +10,7 @@ p{font-size:18px;line-height:1.67;}
 section:after{content:"";display:table;clear:both;}
 .service-why__points{-js-display:flex;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;}
 .service-why__point-block{-webkit-box-flex:1;-ms-flex:1;flex:1;
-    height:630px;-js-display:flex;
+    height:250px;-js-display:flex;
     display:-webkit-box;display:-ms-flexbox;
     display:flex;-webkit-box-pack:center;-ms-flex-pack:center;
     justify-content:center;-webkit-box-align:center;-ms-flex-align:center;
@@ -82,3 +82,98 @@ h3{font-size:18px;}
 @media only screen and (min-width:1025px) and (max-width:1024px){
 h3,p{font-size:13px;}
 }
+
+
+
+
+
+
+
+/*! CSS Used from: https://www.unhidepsoriasis.com/sites/unhidepsoriasis_com/files/css/css_MC3dGa1maas3klMGb2vuO1U4soyWSBF2zJAH7XUDX1w.css ; media=all */
+@media all{
+    .fontyourface .paragraph .button{font-family:'railway-regular';font-style:normal;font-weight:400;}
+    .fontyourface .paragraph .button{font-size:16px;}
+    @media (min-width:576px){
+    .fontyourface .paragraph .button{font-size:16px;}
+    }
+    @media (min-width:768px){
+    .fontyourface .paragraph .button{font-size:16px;}
+    }
+    @media (min-width:992px){
+    .fontyourface .paragraph .button{font-size:16px;}
+    }
+    @media (min-width:1200px){
+    .fontyourface .paragraph .button{font-size:16px;}
+    }
+    }
+    /*! CSS Used from: https://www.unhidepsoriasis.com/sites/unhidepsoriasis_com/files/css/css_Zl5sozKCaMFXis6awuHqz9LRxUifBMeFL9gnkRn-tFk.css ; media=all */
+    @media all{
+    *,::after,::before{box-sizing:border-box;}
+    a{color:#007bff;text-decoration:none;background-color:transparent;-webkit-text-decoration-skip:objects;}
+    a:hover{color:#0056b3;text-decoration:underline;}
+    @media print{
+    *,::after,::before{text-shadow:none!important;box-shadow:none!important;}
+    a:not(.btn){text-decoration:underline;}
+    }
+    *,::after,::before{-webkit-box-sizing:inherit;box-sizing:inherit;}
+    a,div{margin:0;padding:0;border:0;font:inherit;font-size:100%;vertical-align:baseline;}
+    *,::after,::before{-webkit-box-sizing:inherit;box-sizing:inherit;scroll-behavior:smooth;}
+    ::-ms-clear{display:none;}
+    body:not(.user-is-tabbing) a.button:focus,body:not(.user-is-tabbing) div:focus{outline:0;}
+    a{text-decoration:none;}
+    .button{max-width:255px;width:100%;display:block;padding:.6875rem 1.25rem;font-family:"Sans pro Semibold";font-size:1.0625rem;font-weight:500;line-height:1.0625rem;letter-spacing:normal;text-align:center;border-radius:50px;margin:0 auto;border-style:solid;-webkit-transition:color .3s ease,border-color .3s ease,background .3s ease;transition:color .3s ease,border-color .3s ease,background .3s ease;}
+    .button:hover{text-decoration:none;}
+    .button.button--primary{color:#fff;}
+    .button.brand-accent-border-button{border-color:#ff34bb;}
+    .button.brand-accent-border-button:hover{border-color:#ff86d7;}
+    .button.brand-accent-button{background-color:#ff34bb;}
+    .button.brand-accent-button:hover{background-color:#ff86d7;}
+    .button.border-width-0{border-width:0;}
+    .button.white-no-transition-text{color:#fff;}
+    .button--center{float:none;}
+    .button:disabled{background-color:#e3e3e3;color:#fff;}
+    .field--name-field-button-link{padding:10px;}
+    .paragraph--type--button .field--name-field-button-link{padding:.625rem 0;}
+    .brand-accent-button{background-color:#ff34bb;}
+    .brand-accent-button:hover{background-color:#ff86d7;}
+    .white-no-transition-text{color:#fff;}
+    .border-width-0{border-width:0;}
+    .brand-accent-border-button{border-color:#ff34bb;}
+    .brand-accent-border-button:hover{border-color:#ff86d7;}
+    .paragraph{text-align:left;}
+    .paragraph--type--content-container .field--name-field-button-link:after{content:" ";display:block;height:0;clear:both;}
+    }
+    /*! CSS Used from: https://www.unhidepsoriasis.com/sites/unhidepsoriasis_com/files/css/css_ICTFQreudLP2OCWc90KfFf690gaOAxc0LJE8H9B9bjs.css ; media=all */
+    @media all{
+    *,*::after,*::before{-webkit-box-sizing:inherit;box-sizing:inherit;}
+    div,a{margin:0;padding:0;border:0;font:inherit;font-size:100%;vertical-align:baseline;}
+    *,*::after,*::before{-webkit-box-sizing:inherit;box-sizing:inherit;scroll-behavior:smooth;}
+    ::-ms-clear{display:none;}
+    body:not(.user-is-tabbing) a.button:focus,body:not(.user-is-tabbing) div:focus{outline:none;}
+    a{text-decoration:none;}
+    .button{max-width:255px;width:100%;display:block;padding:0.6875rem 1.25rem;font-family:"Sans pro Semibold";font-size:1.0625rem;font-weight:500;line-height:1.0625rem;letter-spacing:normal;text-align:center;border-radius:50px;margin:0 auto;border-style:solid;-webkit-transition:color 0.3s ease,border-color 0.3s ease,background 0.3s ease;transition:color 0.3s ease,border-color 0.3s ease,background 0.3s ease;}
+    .button:hover{text-decoration:none;}
+    .button.button--primary{color:#ffffff;}
+    .button.brand-accent-border-button{border-color:#ac0b4a;}
+    .button.brand-accent-border-button:hover{border-color:#e55f92;}
+    .button.brand-accent-button{background-color:#ac0b4a;}
+    .button.brand-accent-button:hover{background-color:#e55f92;}
+    .button.border-width-0{border-width:0;}
+    .button.white-no-transition-text{color:#ffffff;}
+    .button--center{float:none;}
+    .button:disabled{background-color:#e3e3e3;color:#ffffff;}
+    .field--name-field-button-link{padding:10px;}
+    .paragraph--type--button .field--name-field-button-link{padding:0.625rem 0;}
+    .brand-accent-button{background-color:#ac0b4a;}
+    .brand-accent-button:hover{background-color:#e55f92;}
+    .white-no-transition-text{color:#ffffff;}
+    .border-width-0{border-width:0;}
+    .brand-accent-border-button{border-color:#ac0b4a;}
+    .brand-accent-border-button:hover{border-color:#e55f92;}
+    .paragraph{text-align:left;}
+    .paragraph--type--content-container .field--name-field-button-link:after{content:" ";display:block;height:0;clear:both;}
+    }
+    /*! CSS Used fontfaces */
+    /* @font-face{font-family:'railway-regular';font-weight:400;font-style:normal;src:url('https://www.unhidepsoriasis.com/sites/unhidepsoriasis_com/files/fontyourface/local_fonts/raleway_regular/font.woff') format('woff');}
+    @font-face{font-family:'Sans pro Semibold';font-style:normal;font-weight:600;src:local("Sans pro Semibold"),local("Sans-pro-Semibold"),url(https://www.unhidepsoriasis.com/themes/custom/novartis_dolphin/pattern-lab/public/fonts/sans_pro/sanspro-semibold.ttf) format("truetype"),url(https://www.unhidepsoriasis.com/themes/custom/novartis_dolphin/pattern-lab/public/fonts/sans_pro/sanspro-semibold.eot);}
+    @font-face{font-family:'Sans pro Semibold';font-style:normal;font-weight:600;src:local("Sans pro Semibold"),local("Sans-pro-Semibold"),url(https://www.unhidepsoriasis.com/themes/custom/novartis_dolphin/pattern-lab/public/fonts/sans_pro/sanspro-semibold.ttf) format("truetype"),url(https://www.unhidepsoriasis.com/themes/custom/novartis_dolphin/pattern-lab/public/fonts/sans_pro/sanspro-semibold.eot);} */
