@@ -7,38 +7,38 @@
 
     <div class="wrap-contact100">
         <div class="column colspan-all text-center">
-        <form class="contact100-form validate-form" method="POST">
+        <form id="contact_form" class="contact100-form validate-form" method="POST">
                 {% csrf_token %}
+            {% for field in form %}
             <div class="wrap-input100 validate-input" data-validate="Name is required">
-                <span class="label-input100">Full Name:</span>
-                    <input class="input100" type="text" name="name" placeholder="Enter full name">
+                <span class="label-input100">{{ field.label }}:</span>
+                    {{ field }}
                 <span class="focus-input100"></span>
             </div>
-            <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-                <span class="label-input100">Email:</span>
-                    <input class="input100" type="text" name="email" placeholder="Enter email addess">
-                <span class="focus-input100"></span>
+            <div id="oo" class=" text-danger text-left" >
+                {{ field.errors }}
             </div>
-            <div class="wrap-input100 validate-input" data-validate="Phone is required">
-                <span class="label-input100">Phone:</span>
-                    <input class="input100" type="text" name="phone" placeholder="Enter phone number">
-                <span class="focus-input100"></span>
-            </div>
-            <div class="wrap-input100 validate-input" data-validate="Message is required">
-                <span class="label-input100">Message:</span>
-                    <textarea class="input100" name="message" placeholder="Your Comment..." style="margin-top: 0px; margin-bottom: 0px; height: 127px;"></textarea>
-                <span class="focus-input100"></span>
-            </div>
+            {% endfor %}
+            
             
             <div class="container-contact100-form-btn">
+                
+                
                 <button type="submit" class="contact100-form-btn">
                     <span>
                         Submit
                         <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
                     </span>
                 </button>
+                
             </div>
         </form>
     </div>
     </div>
 </div>
+
+<script>
+    {% if form.errors %}
+        document.getElementById("id_name").focus();
+    {% endif %}
+</script>
