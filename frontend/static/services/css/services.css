@@ -126,8 +126,8 @@ h3,p{font-size:13px;}
     .button.button--primary{color:#fff;}
     .button.brand-accent-border-button{border-color:#ff34bb;}
     .button.brand-accent-border-button:hover{border-color:#ff86d7;}
-    .button.brand-accent-button{background-color:#ff34bb;}
-    .button.brand-accent-button:hover{background-color:#ff86d7;}
+    .button.brand-accent-button{background-color:#007bff;}
+    .button.brand-accent-button:hover{background-color:#3d8ee7;}
     .button.border-width-0{border-width:0;}
     .button.white-no-transition-text{color:#fff;}
     .button--center{float:none;}
@@ -156,8 +156,8 @@ h3,p{font-size:13px;}
     .button.button--primary{color:#ffffff;}
     .button.brand-accent-border-button{border-color:#ac0b4a;}
     .button.brand-accent-border-button:hover{border-color:#e55f92;}
-    .button.brand-accent-button{background-color:#ac0b4a;}
-    .button.brand-accent-button:hover{background-color:#e55f92;}
+    .button.brand-accent-button{background-color:#007bff;}
+    .button.brand-accent-button:hover{background-color:#3d8ee7;}
     .button.border-width-0{border-width:0;}
     .button.white-no-transition-text{color:#ffffff;}
     .button--center{float:none;}
